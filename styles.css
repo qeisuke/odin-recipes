@@ -1,0 +1,67 @@
+* {
+  font-family: sans-serif;
+}
+
+h1 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding-top: 0px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+ol {
+  padding-left: 0;
+}
+
+li {
+
+  background-color: white;
+  margin-top: 5px;
+  padding: 2px;
+}
+
+div.container {
+  width: 800px;
+  background-color: lightgray;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+
+li a {
+  text-decoration: none;
+  color: grey;
+}
+
+li a:hover {
+  color: darkgrey;
+}
+
+ul.ingredients {
+}
+
+ul.ingredients li {
+  padding-left: 10px;
+}
+
+ol.instructions {
+  background-color: transparent;
+}
+
+ol.instructions li {
+  padding: 0px;
+  margin-top: 5px;
+  margin-left: 15px;
+
+  background-color: transparent;
+}
+
+ul.ingredients p,
+ol.instructions p {
+  font-weight: bold;
+  padding-left: 0px;
+}
